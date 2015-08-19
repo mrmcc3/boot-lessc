@@ -1,4 +1,6 @@
-# boot-lessc
+# boot-lessc 
+
+![Clojars Project](http://clojars.org/mrmcc3/boot-lessc/latest-version.svg)
 
 A boot task for processing less files. This task shells out to the official lessc compiler.
 To get autoprefixes and minification the autoprefix and clean-css less plugins are used.
@@ -7,6 +9,8 @@ These all need to be installed on your system.
 ```bash
 $ npm install -g less less-plugin-clean-css less-plugin-autoprefix
 ```
+
+
 
 ### Usage
 
