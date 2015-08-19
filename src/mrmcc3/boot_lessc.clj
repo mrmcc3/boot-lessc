@@ -21,7 +21,7 @@
                 out-path (s/replace in-path #"\.less$" ".css")
                 out-file (doto (io/file tmp out-path)
                            (io/make-parents))]
-            (info " • %s\n" in-path)
+            (info "• %s\n" in-path)
             (dosh "lessc"
                   (str "--include-path=" include-path)
                   "--autoprefix"                            ;; TODO: allow user to pass options
